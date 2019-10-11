@@ -1,0 +1,440 @@
+body {
+  color: #818181;
+  position:relative;
+}
+
+
+.img{
+  margin-left:-105px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+
+
+/* ------------------- NAVBAR ------------------- */
+.navbar {
+  margin-bottom: 0;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px;
+  line-height: 1.42857143;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: black;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff;
+}
+
+.glif{
+  font-size:20px;
+}
+
+
+
+/* ------------------- NAVBAR ------------------- */
+/* ---------------- toggle button --------------- */
+.couleur_mauve{
+  border: solid 1px;
+  height: 200px;;
+  background-image: linear-gradient(120deg,#06996F, #579835);
+}
+
+.couleur_vert{
+  border: solid 1px;
+  height: 200px;;
+  background-image: linear-gradient(60deg,#06996F, #579835);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top:9px;
+  margin-right:-200px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+/* ------------------- SERVICES ------------------- */
+.services {
+  background: white;
+  font-size: 5vw; 
+  font-weight:bold;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  transform: translate(5.5%, -50%);
+  border-radius:6px;
+  mix-blend-mode:screen;
+  margin-top:150px;
+}
+
+.serv{
+  justify-content: space-around;
+  display:flex;
+  margin-top:250px;
+}
+
+.pos{
+  margin-top:50px;
+}
+
+.imge{
+  height:25em;
+}
+
+.bar1{
+  width:100px;
+}
+
+.bar2{
+  width:100px;
+}
+
+.pose {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  background:#ccc;
+  border-radius:6px;
+  margin-top:65px;
+}
+
+.poze {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  background:#ccc;
+  border-radius:6px;
+  margin-top:45px;
+}
+
+.pozse {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  background:#ccc;
+  border-radius:6px;
+  margin-top:65px;
+}
+
+
+.pose:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.ecrit {
+  padding: 2px 16px;
+}
+
+.chiffre {
+  padding: 2px 16px 6px;
+}
+
+
+
+
+/* ------------------- PORTFOLIO ------------------- */
+#bloc1{
+  margin-top:-50px;
+}
+
+#bloc2{
+  margin-top:27px;
+}
+
+.separ,.separ2{
+  width: 300px;
+  position: relative;
+  margin-top: -115px;
+}
+.f1,.f2{
+  font-size: 1.5em;
+  margin-top:-80px;
+}
+
+.ex2{
+  margin-top:-16px;
+  margin-left:-20px;
+}
+
+.barre{
+  position:absolute;
+  margin-left: -917px;
+  margin-top: 40px;
+  width:950px;
+}
+
+.projet{
+  margin-top:155px;
+}
+
+.portfolio {
+  background: white;
+  font-size: 5vw; 
+  font-weight:bold;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  transform: translate(5.5%, -50%);
+  border-radius:6px;
+  margin-top:-50px;
+}
+
+
+
+/* ------------------- ABOUT ------------------- */
+
+.about {
+  background: white;
+  font-size: 5vw; 
+  font-weight:bold;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  transform: translate(5.5%, -50%);
+  border-radius:6px;
+  mix-blend-mode:screen;
+  margin-top:150px;
+}
+
+.about1 {
+  font-size: 25px;
+  padding:0px 60px 0px 60px;
+  margin-bottom:100px;
+}
+
+.entreprise{
+  font-size:25px;
+}
+
+.propos{
+  margin-bottom:-300px; 
+}
+
+.glyph{
+  font-size:200px;
+  color:orange;
+}
+
+.bac1{
+  justify-content: space-around;
+  display:flex;
+  margin-left:-90px;
+  margin-bottom:50px;
+}
+
+.suitcase{
+  margin-left:-330px;
+  margin-top:-40px;
+}
+
+.glaph{
+  font-size:90px;
+  color: orange;
+}
+
+.bac2{
+  justify-content: space-around;
+  display:flex;
+  margin-bottom:50px;
+}
+
+.first{
+  margin-right:-720px;
+  margin-top:65px;
+}
+
+.second{
+  margin-top:125px;
+  margin-right:-284px;
+  transform: rotate(225deg);
+}
+
+.third{
+  margin-top:-25px;
+  margin-left:14px;
+}
+
+.fourth{
+  margin-top:125px;
+  margin-left:-253px;
+  transform: rotate(135deg);
+}
+
+.bac3{
+  justify-content: space-around;
+  display:flex;
+}
+
+.use{
+  margin-top:20px;
+}
+
+/* ------------------- TEAM ------------------- */
+.part_up{
+  justify-content: center;
+  display:flex;
+  margin-bottom:50px;
+}
+
+.part_down{
+  justify-content:space-around;
+  display:flex;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  width: 357px;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 139px;
+  right: 0;
+  height: 400px;
+  width: 357px;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.equipe{
+  margin-top:500px;
+}
+
+.team{
+  background: white;
+  font-size: 5vw; 
+  font-weight:bold;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  transform: translate(5.5%, -50%);
+  border-radius:6px;
+  mix-blend-mode:screen;
+  margin-top:-100px;
+}
+
+
+
+/* ------------------- CONTACT ------------------- */
+.contact {
+  background: white;
+  font-size: 5vw; 
+  font-weight:bold;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  transform: translate(5.5%, -50%);
+  border-radius:6px;
+  mix-blend-mode:screen;
+  margin-top:-100px;
+}
+
+
+
+/* ------------------- FOOTER ------------------- */
+footer{
+  background-color:black;
+  color:white;
+}
+
+.gliph {
+  font-size: 20px;
+  color: #f4511e;
+}
+
